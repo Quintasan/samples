@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'dry-validation'
+gem 'dry-monads'
+gem 'rspec'
+gem 'pry-byebug'

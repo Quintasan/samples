@@ -1,0 +1,8 @@
+@teas.map do |tea|
+  {
+    id: tea.id,
+    name: tea.name,
+    country: tea.country,
+    url: tea_url(tea, format: :json)
+  }
+end

@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+ruby '~> 2.7'
+
+gem 'puma'
+gem 'addressable'
+gem 'dbm'
+gem 'nokogiri'
+gem 'roda'
+gem 'typhoeus'
+require 'cgi'
+

@@ -1,0 +1,11 @@
+default: &default
+  adapter: sqlite3
+  encoding: unicode
+
+development:
+  <<: *default
+  database: rails_app_development
+
+test:
+  <<: *default
+  database: rails_app_test
